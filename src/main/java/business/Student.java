@@ -14,11 +14,7 @@ public class Student {
     public Student() {
     }
 
-    public Student(int studentId, String studentName, String batch) {
-        this.studentId = studentId;
-        this.studentName = studentName;
-        this.batch = batch;
-    }
+//   contruction
 
     public String getBatch() {
         return batch;
